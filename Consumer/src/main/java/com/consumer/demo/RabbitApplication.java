@@ -11,7 +11,9 @@ import java.util.Scanner;
 public class RabbitApplication
 {
     private final static String QUEUE_NAME = "hello";
+    private final static String EXCHANGE_NAME = "test_topic";
     public static void main(String[] args) throws Exception {
+        String[] filters = {""};
 
 
             ConnectionFactory factory = new ConnectionFactory();
@@ -19,13 +21,28 @@ public class RabbitApplication
             Connection connection = factory.newConnection();
             Channel channel = connection.createChannel();
 
-            channel.queueDeclare(QUEUE_NAME, false, false, false, null);
+        channel.exchangeDeclare(EXCHANGE_NAME, "topic");
+        String queueName = channel.queueDeclare().getQueue();
+
+        //for (String bindingKey : filters){
+            channel.queueBind(queueName, EXCHANGE_NAME, "#.pepperoni");
+        //}
+
+
+        System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
+        DeliverCallback deliverCallback = (consumerTag, delivery) -> {
+            String message = new String(delivery.getBody(), "UTF-8");
+            System.out.println(" [x] Received '" +
+                    delivery.getEnvelope().getRoutingKey() + "':'" + message + "'");
+        };
+        channel.basicConsume(queueName, true, deliverCallback, consumerTag -> { });
+            /*channel.queueDeclare(QUEUE_NAME, false, false, false, null);
             System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
         DeliverCallback deliverCallback = (consumerTag, delivery) -> {
             String message = new String(delivery.getBody(), "UTF-8");
             System.out.println(" [x] Received '" + message + "'");
         };
-        channel.basicConsume(QUEUE_NAME, true, deliverCallback, consumerTag -> { });
+        channel.basicConsume(QUEUE_NAME, true, deliverCallback, consumerTag -> { });*/
 
     }
 
