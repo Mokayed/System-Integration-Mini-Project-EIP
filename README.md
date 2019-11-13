@@ -23,7 +23,7 @@
   <li>dependecy manager: maven</li>
 </ul>
 
-<h2>Implemention</h2>
+<h2>Implemention <g-emoji class="g-emoji" alias="computer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png">💻</g-emoji></h2>
 
 <strong>The project is made by using two diffrent implementions of sending and receiving messages:</strong>
 
@@ -32,7 +32,7 @@
   <li><strong>The secound implemention is Requestor and Replier (with focus on RPC)</strong></li>
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/rpc.PNG"/>
     
-  <h2>Application’s architecture</h2>
+  <h2>Application’s architecture & What we end with <g-emoji class="g-emoji" alias="interrobang" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2049.png">⁉️</g-emoji></h2>
   
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/image.png" align="left" />
 
@@ -51,7 +51,7 @@
   </li>
 </ul>
 
-<strong>Conclusion</strong>
+<strong>What we end with</strong>
   
   The topic part has to do with getting a list of food-categories and then filter the larger
   amount of data into a smaller chosen amount of data by using a routing_key.
