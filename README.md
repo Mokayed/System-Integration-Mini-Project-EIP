@@ -9,3 +9,4 @@ It has to be documented in a readable format, containing the following attribute
 • diagrams, illustrating the above
 • installation instructions 
 
+<img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/bmpn.png"/>
