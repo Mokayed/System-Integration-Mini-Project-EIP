@@ -33,8 +33,9 @@
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/rpc.PNG"/>
     
   <h2>Application’s architecture</h2>
-  <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/image.png"/>
-  <img itemprop="image" data-original="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/image.png" align="left" /><p>Your text goes here.</p>
+  
+  <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/image.png" align="left" />
+
 
   <ul>
   <li>
