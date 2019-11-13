@@ -56,18 +56,15 @@
   The topic part has to do with getting a list of food-categories and then filter the larger
   amount of data into a smaller chosen amount of data by using a routing_key.
   
-  In RPC part we managed to implement our idea and it follows the business process model, we couldgo through those steps:
-  1-first picking a food category,
-  2- picking a food
-  3-pay/not pay.
+  In RPC part we managed to implement our idea and it follows the business process model, we couldgo through those steps: first picking a food category, then picking a food, finally pay/not pay.
   
 
 <h2>installation instructions</h2>
 <ul>
   <li>clone the project</li>
   <li>open it in your favorite java ide (we used IntelliJ)</li>
-  <li>go into rpc package -> run Replier </li> 
-  <li>then -> run Requester</li>
+  <li>go into RPC package -> run Replier </li> 
+  <li>run Requester</li>
   <li>follow the instructions shown in console</li>
   <li>after following instructions, terminate the processes</li>
   <li>after following instructions, terminate the processes</li>
