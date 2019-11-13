@@ -1,22 +1,15 @@
-package com.example.demo;
+package data;
 
 import com.opencsv.CSVReader;
-
-import java.io.FileNotFoundException;
+import entities.Food;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
 public class CSVHandler {
 
-    public static void main(String[] args) throws IOException {
-        CSVHandler c = new CSVHandler();
-
-    }
-
-
     public void readCsv(List<Food> foods) throws IOException {
-        CSVReader reader = new CSVReader(new FileReader("/home/hvn15/IdeaProjects/System-Integration-Mini-Project-EIP/Producer/src/main/resources/foods.csv"));
+        CSVReader reader = new CSVReader(new FileReader(System.getProperty("user.dir") + "/src/main/resources/foods.csv"));
         List<String[]> myEntries = reader.readAll();
 
         for(String[] s : myEntries){
@@ -24,5 +17,4 @@ public class CSVHandler {
 
         }
     }
-
 }

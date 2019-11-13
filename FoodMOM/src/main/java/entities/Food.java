@@ -1,5 +1,4 @@
-package com.example.demo;
-
+package entities;
 public class Food {
     private String name;
     private String food_category;
