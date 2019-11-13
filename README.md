@@ -4,9 +4,10 @@
 
 <h2>Brief summary of the application’s architecture, business and technical features</h2>
 <p>
-Our project has two types of senders and receivers:
+The project is made by two diffrent solutions of sending and receiving messages:
   <li>producer and consumer (with focus on topic)</li>
-  <li>requestor and replier (with focus on rpc)</li>
+  <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/TOPIC.PNG"/>
+  <li>requestor and replier (with focus on RPC)</li>
   
   <h2>Application’s architecture</h2>
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/image.png"/>
