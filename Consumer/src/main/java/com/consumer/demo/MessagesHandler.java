@@ -6,44 +6,40 @@ import com.rabbitmq.client.DeliverCallback;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.concurrent.locks.Lock;
 
 public class MessagesHandler {
 
-  public  String getCategories(Channel channel, String QUEUE_NAME) throws IOException {
-      ArrayList<String> categories = new ArrayList<>();
+  public void getCategories(Channel channel, String QUEUE_NAME) throws IOException, InterruptedException {
       channel.queueDeclare(QUEUE_NAME, false, false, false, null);
       DeliverCallback deliverCallback = (consumerTag, delivery) -> {
           String message = new String(delivery.getBody(), "UTF-8");
-          System.out.println(" [x] Received " + message + "");
+          System.out.println(message + "please pick one of the food options above");
       };
-      channel.basicConsume(QUEUE_NAME, true, deliverCallback, consumerTag -> { });
-      String categoriesString = "";
-      for (String category: categories){
-          categoriesString+=categories;
-      }
-return categoriesString;
+      channel.basicConsume(QUEUE_NAME, true, deliverCallback, consumerTag -> {
+
+      });
     }
 
-    public String pickCategory(String category, String EXCHANGE_NAME, Channel channel) throws IOException {
-        ArrayList<String> foodNames = new ArrayList<>();
+    public void pickCategory(String category, String EXCHANGE_NAME, Channel channel) throws IOException {
         channel.exchangeDeclare(EXCHANGE_NAME, "topic");
         String queueName = channel.queueDeclare().getQueue();
 
-        channel.queueBind(queueName, EXCHANGE_NAME, category + ".#");
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.next();
+        System.out.println("you typed: " + input);
+        channel.queueBind(queueName, EXCHANGE_NAME, input + ".#");
 
         System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
-        DeliverCallback deliverCallback2 = (consumerTag, delivery) -> {
+        DeliverCallback deliverCallback = (consumerTag, delivery) -> {
             String message = new String(delivery.getBody(), "UTF-8");
-            foodNames.add(message);
-            System.out.println(" [x] Received '" +
+            System.out.println(
                     delivery.getEnvelope().getRoutingKey() + "':'" + message + "'");
         };
-        channel.basicConsume(queueName, true, deliverCallback2, consumerTag -> { });
-        String categoriesString = "";
-        for (String food: foodNames){
-            System.out.println(category);
-            categoriesString+=food;
-        }
-        return categoriesString;
+
+
+
+        channel.basicConsume(queueName, true, deliverCallback, consumerTag -> { });
     }
 }

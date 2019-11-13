@@ -9,6 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.locks.Lock;
+
 
 @SpringBootApplication
 public class RabbitApplication
@@ -20,15 +22,25 @@ public class RabbitApplication
         factory.setHost("localhost");
         Connection connection = factory.newConnection();
         Channel channel = connection.createChannel();
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
+
+        //System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
 
         MessagesHandler m = new MessagesHandler();
+        m.getCategories(channel, QUEUE_NAME);
 
-while(true){
-    String categoryChosen = scanner.next();
-        switch (categoryChosen){
+    m.pickCategory("qweqw", EXCHANGE_NAME, channel);
+
+
+
+
+
+
+//while(true){
+
+
+
+    /*    switch (categoryChosen){
 
             case "b":
                 String categoriesChosen = m.pickCategory("Nuts", EXCHANGE_NAME, channel);
@@ -39,7 +51,9 @@ while(true){
                 System.out.println(categories);
                 break;
 
-        }}
+        }*/
+
+//}
 
 
        //m.pickCategory("", EXCHANGE_NAME, channel);
