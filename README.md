@@ -25,11 +25,11 @@
 
 <h2>implemention</h2>
 
-<strong>The project is made by two diffrent solutions (implementions) of sending and receiving messages:</strong>
+<strong>The project is made by using diffrent implementions of sending and receiving messages:</strong>
 
-  <li><strong>Producer and Consumer (with focus on topic)</strong></li>
+  <li><strong>The first implemention is a Producer and Consumer (with focus on topic)</strong></li>
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/TOPIC.PNG"/>
-  <li><strong>Requestor and Replier (with focus on RPC)</strong></li>
+  <li><strong>The secound implemention is Requestor and Replier (with focus on RPC)</strong></li>
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/rpc.PNG"/>
     
   <h2>Application’s architecture</h2>
