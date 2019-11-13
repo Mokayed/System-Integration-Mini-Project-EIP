@@ -25,7 +25,7 @@
 
 <h2>implemention</h2>
 
-<strong>The project is made by using diffrent implementions of sending and receiving messages:</strong>
+<strong>The project is made by using two diffrent implementions of sending and receiving messages:</strong>
 
   <li><strong>The first implemention is a Producer and Consumer (with focus on topic)</strong></li>
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/TOPIC.PNG"/>
