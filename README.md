@@ -23,7 +23,7 @@
   <li>dependecy manager: maven</li>
 </ul>
 
-<h2>implemention</h2>
+<h2>Implemention</h2>
 
 <strong>The project is made by using two diffrent implementions of sending and receiving messages:</strong>
 
