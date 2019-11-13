@@ -39,17 +39,19 @@
 
   <ul>
   <li>
-  data package is where the data files are processed (json/csv)
+  The "data package" is where the data (json/csv) files are processed.
   </li>
   <li>
-  entities is where the object for Food is
+  the "entities package" contains our object class
   </li>
-  RPC: The package containing the implementation of RPC(Request-Reply Pattern) and other diffrent pattern which you can see by <a href="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/rpc.PNG">clicking her</a>. 
+ The "RPC package" containing the implementation of RPC(Request-Reply Pattern) and other diffrent patterns which you can see by <a href="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/rpc.PNG">clicking her</a>. 
   
   <li>
-  Topic: The package containing the implementation of Topics using the diffrent pattern that u can see by <a href="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/TOPIC.PNG">clicking her</a>.
+ The "Topic package" containing the implementation of Topics using the diffrent patterns that u can see by <a href="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/TOPIC.PNG">clicking her</a>.
   </li>
 </ul>
+
+
   
   The topic part has to do with getting a list of food-categories and then filter the larger
   amount of data into a smaller chosen amount of data by using a routing_key.
@@ -61,7 +63,7 @@
   
 
 
-<h5>installation instructions</h5>
+<h2>installation instructions</h2>
 <ul>
   <li>clone the project</li>
   <li>open it in your favorite java ide (we used IntelliJ)</li>
