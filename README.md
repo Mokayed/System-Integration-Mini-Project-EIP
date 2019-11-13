@@ -42,7 +42,7 @@ image below shows our business process model, <a href="https://github.com/Mokaye
   <li>after following instructions, terminate the processes</li>
   .<li>after following instructions, terminate the processes</li>
   <li>go into line 18 in TopicConsumer and edit the string to one of the following categories:</li>
-  <p>Beverages,Aquatic foods,Animal foods,Milk and milk products,Eggs,Confectioneries,Baking goods,Dishes,Snack foods,Baby foods,Unclassified,Fats and oils,Herbs and spices</p>
+  <p style="color:red;">Beverages,Aquatic foods,Animal foods,Milk and milk products,Eggs,Confectioneries,Baking goods,Dishes,Snack foods,Baby foods,Unclassified,Fats and oils,Herbs and spices</p>
   <li>then go into topic package -> run TopicConsumer </li>
   <li>then run TopicProducer</li>
   <li>everything should all at once and you can see the results in the console window</li>
