@@ -21,13 +21,10 @@ The project is made by two diffrent solutions of sending and receiving messages:
   <li>
   entities is where the object for Food is
   </li>
-  RPC: The package containing the implementation of RPC(Request-Reply Pattern). 
-  Patterns used in RPC: 
-  <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/rpc.PNG"/>
+  RPC: The package containing the implementation of RPC(Request-Reply Pattern) and other diffrent pattern which you can see by <a href="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/rpc.PNG">clicking her</a>. 
+  
   <li>
-  Topic: The package containing the implementation of Topics.
-    Patterns used in Topic: 
-    <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/TOPIC.PNG"/>
+  Topic: The package containing the implementation of Topics using the diffrent pattern that u can see by <a href="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/TOPIC.PNG">clicking her</a>.
   </li>
 </ul>
   
