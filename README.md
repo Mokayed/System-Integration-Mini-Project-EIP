@@ -1,6 +1,6 @@
 # System-Integration-Mini-Project-EIP
 
-<h5>Made by: Hallur við Neyst, Hazem Saeid, Morshed Kayed</h5>
+<h5>Made by: Hallur við Neyst, Hazem Saeid, Murched Kayed</h5>
 
 <h2>Brief summary of the application’s <g-emoji class="g-emoji" alias="page_with_curl" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c3.png">📃</g-emoji></h2>
 
