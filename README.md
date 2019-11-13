@@ -2,7 +2,7 @@
 
 <h5>Made by: Hallur við Neyst, Hazem Saeid, Morshed Kayed</h5>
 
-<h2>Brief summary of the application’s</h2>
+<h2>Brief summary of the application’s <g-emoji class="g-emoji" alias="page_with_curl" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c3.png">📃</g-emoji></h2>
 
 <p>
   We decided to create an application that exchanges big amount of food data which a client choose a food to order. The idea is that we have a producer that offer’s different kind of food to a consumer, then the consumer can pick one of the food he is interested in, after he could see the content of the food he want, then pay for it.
@@ -59,7 +59,7 @@
   In RPC part we managed to implement our idea and it follows the business process model, we couldgo through those steps: first picking a food category, then picking a food, finally pay/not pay.
   
 
-<h2>installation instructions</h2>
+<h2>Installation instructions <g-emoji class="g-emoji" alias="gear" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2699.png">⚙️</g-emoji></h2>
 <ul>
   <li>clone the project</li>
   <li>open it in your favorite java ide (we used IntelliJ)</li>
