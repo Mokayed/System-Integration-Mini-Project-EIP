@@ -2,7 +2,7 @@
 
 <h5>Made by: Hallur við Neyst, Hazem Saeid, Morshed Kayed</h5>
 
-<h2>Brief summary of the application’s architecture, business and technical features</h2>
+<h2>Brief summary of the application’s</h2>
 
 <p>
   We decided to create an application that exchanges big amount of food data which a client choose a food to order. The idea is that we have a producer that offer’s different kind of food to a consumer, then the consumer can pick one of the food he is interested in, after he could see the content of the food he want, then pay for it.
@@ -23,7 +23,9 @@
   <li>dependecy manager: maven</li>
 </ul>
 
-<h4> The project is made by two diffrent solutions (implementions) of sending and receiving messages: </h4>
+<h2>implemention</h2>
+
+<strong>The project is made by two diffrent solutions (implementions) of sending and receiving messages:</strong>
 
   <li><strong>Producer and Consumer (with focus on topic)</strong></li>
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/TOPIC.PNG"/>
