@@ -12,6 +12,24 @@ Our project has two types of senders and receivers:
   
   <h5>architecture</h5>
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/image.png"/>
+  
+  <ul>
+  <li>
+  data package is where the data files are processed (json/csv)
+  </li>
+  <li>
+  entities is where the object for Food is
+  </li>
+  RPC: The package containing the implementation of RPC(Request-Reply Pattern). 
+  Patterns used in RPC: 
+  [Pic here]
+  <li>
+  Topic: The package containing the implementation of Topics.
+    Patterns used in Topic: 
+    [Pic here]
+  </li>
+</ul>
+  
   The topic part has to do with getting a list of food-categories and then filter the larger
   amount of data into a smaller chosen amount of data by using a routing_key.
   
