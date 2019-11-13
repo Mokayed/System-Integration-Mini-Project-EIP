@@ -50,16 +50,6 @@
  The "Topic package" containing the implementation of Topics using the diffrent patterns that u can see by <a href="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/TOPIC.PNG">clicking her</a>.
   </li>
 </ul>
-
-
-  
-  The topic part has to do with getting a list of food-categories and then filter the larger
-  amount of data into a smaller chosen amount of data by using a routing_key.
-  
-  The RPC part follows the business process model and has to do with first picking a food category,
-  then picking a food and then finally pay/not pay.
-  
-  this application processes a larger of amount of data in CSV and JSON format.
   
 
 
