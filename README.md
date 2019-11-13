@@ -34,7 +34,7 @@
     
   <h2>Application’s architecture & What we end with <g-emoji class="g-emoji" alias="interrobang" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2049.png">⁉️</g-emoji></h2>
   
-  <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/image.png" align="left" />
+  <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/image.png" align="left" height: "110%"/>
 
 <strong>Application’s architecture</strong>
 
