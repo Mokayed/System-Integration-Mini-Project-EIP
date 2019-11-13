@@ -1,7 +1,5 @@
 # System-Integration-Mini-Project-EIP
 
-<h1>MiniProject Assignment 2 Integration</h1>
-
 <h5>Hallur við Neyst, Hazem Saeid, Morshed Kayed</h5>
 
 <h3>brief summary of the application’s architecture, business and technical features</h3>
