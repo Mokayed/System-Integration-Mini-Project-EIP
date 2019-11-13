@@ -1,6 +1,6 @@
 # System-Integration-Mini-Project-EIP
 
-<h1>MiniProject Assignment 2</h1>
+<h1>MiniProject Assignment 2 Integration</h1>
 
 
 It has to be documented in a readable format, containing the following attributes:
