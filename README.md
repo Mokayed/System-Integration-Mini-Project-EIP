@@ -1,6 +1,6 @@
 # System-Integration-Mini-Project-EIP
 
-<h5>Hallur við Neyst, Hazem Saeid, Morshed Kayed</h5>
+<h5>Made by: Hallur við Neyst, Hazem Saeid, Morshed Kayed</h5>
 
 <h3>brief summary of the application’s architecture, business and technical features</h3>
 <p>
