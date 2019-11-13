@@ -5,7 +5,26 @@
 <h2>Brief summary of the application’s architecture, business and technical features</h2>
 
 <p>
-The project is made by two diffrent solutions (implementions) of sending and receiving messages:
+  We decided to create an application that exchanges big amount of food data which a client choose a food to order. The idea is that we have a producer that offer’s different kind of food to a consumer, then the consumer can pick one of the food he is interested in, after he could see the content of the food he want, then pay for it.
+  
+  <h4>BPM</h4>
+  
+  We started creating a business process model, which it would make it simpler to come the implementation phase, <a href="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/diagram.bpmn">click here for xml version</a>
+</p>
+<img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/bmpn.png"/>
+
+  
+  
+  <h4> We decided to use those Technical Features to implement the solution </h4>
+
+  <ul>
+  <li>message broker: rabbitMQ</li>
+  <li>programming language: java 11</li>
+  <li>dependecy manager: maven</li>
+</ul>
+
+<h4> The project is made by two diffrent solutions (implementions) of sending and receiving messages: </h4>
+
   <li><strong>Producer and Consumer (with focus on topic)</strong></li>
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/TOPIC.PNG"/>
   <li><strong>Requestor and Replier (with focus on RPC)</strong></li>
@@ -36,19 +55,6 @@ The project is made by two diffrent solutions (implementions) of sending and rec
   
   this application processes a larger of amount of data in CSV and JSON format.
   
-  <h2>Technical Features</h2>
-  
-  <ul>
-  <li>message broker: rabbitMQ</li>
-  <li>programming language: java 11</li>
-  <li>dependecy manager: maven</li>
-</ul>
-
-
-  
-image below shows our business process model, <a href="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/diagram.bpmn">click here for xml version</a>
-</p>
-<img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/bmpn.png"/>
 
 
 <h5>installation instructions</h5>
