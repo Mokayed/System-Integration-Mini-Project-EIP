@@ -5,7 +5,7 @@
 <h2>Brief summary of the application’s architecture, business and technical features</h2>
 
 <p>
-The project is made by two diffrent solutions of sending and receiving messages:
+The project is made by two diffrent solutions (implemnt's) of sending and receiving messages:
   <li><strong>Producer and Consumer (with focus on topic)</strong></li>
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/TOPIC.PNG"/>
   <li><strong>Requestor and Replier (with focus on RPC)</strong></li>
