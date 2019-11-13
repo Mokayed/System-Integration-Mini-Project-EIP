@@ -36,6 +36,7 @@
   
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/image.png" align="left" />
 
+<strong>Application’s architecture</strong>
 
   <ul>
   <li>
