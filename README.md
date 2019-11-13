@@ -19,6 +19,7 @@ Our project has two types of senders and receivers:
   
   this application processes a larger of amount of data in CSV and JSON format.
   
+  <h5>Technical Features</5>
   <ul>
   <li>message broker: rabbitMQ</li>
   <li>programming language: java 11</li>
