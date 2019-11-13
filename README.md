@@ -6,7 +6,7 @@
 
 <p>
 The project is made by two diffrent solutions of sending and receiving messages:
-  <li><strong>Producer and Consumer (with focus on topic)</strong</li>
+  <li><strong>Producer and Consumer (with focus on topic)</strong></li>
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/TOPIC.PNG"/>
   <li><strong>Requestor and Replier (with focus on RPC)</strong></li>
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/rpc.PNG"/>
