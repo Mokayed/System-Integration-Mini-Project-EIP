@@ -22,7 +22,7 @@ Our project has two types of senders and receivers:
   </li>
   RPC: The package containing the implementation of RPC(Request-Reply Pattern). 
   Patterns used in RPC: 
-  [Pic here]
+  <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/rpc.PNG"/>
   <li>
   Topic: The package containing the implementation of Topics.
     Patterns used in Topic: 
