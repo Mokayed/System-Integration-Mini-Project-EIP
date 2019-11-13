@@ -51,7 +51,7 @@
   </li>
 </ul>
 
-<strong>Conclusion</strong
+<strong>Conclusion</strong>
   
   The topic part has to do with getting a list of food-categories and then filter the larger
   amount of data into a smaller chosen amount of data by using a routing_key.
@@ -61,9 +61,6 @@
   2- picking a food
   3-pay/not pay.
   
-  this application processes a larger of amount of data in CSV and JSON format.  
-  
-
 
 <h2>installation instructions</h2>
 <ul>
