@@ -2,13 +2,13 @@
 
 <h5>Made by: Hallur við Neyst, Hazem Saeid, Morshed Kayed</h5>
 
-<h3>brief summary of the application’s architecture, business and technical features</h3>
+<h2>Brief summary of the application’s architecture, business and technical features</h2>
 <p>
 Our project has two types of senders and receivers:
   <li>producer and consumer (with focus on topic)</li>
   <li>requestor and replier (with focus on rpc)</li>
   
-  <h5>architecture</h5>
+  <h2>Application’s architecture</h2>
   <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/image.png"/>
   
   <ul>
@@ -31,13 +31,13 @@ Our project has two types of senders and receivers:
   The topic part has to do with getting a list of food-categories and then filter the larger
   amount of data into a smaller chosen amount of data by using a routing_key.
   
-  The rpc part follows the business process model and has to do with first picking a food category,
+  The RPC part follows the business process model and has to do with first picking a food category,
   then picking a food and then finally pay/not pay.
-  
   
   this application processes a larger of amount of data in CSV and JSON format.
   
-  <h5>Technical Features</5>
+  <h2>Technical Features</h2>
+  
   <ul>
   <li>message broker: rabbitMQ</li>
   <li>programming language: java 11</li>
