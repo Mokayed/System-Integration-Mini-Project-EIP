@@ -10,6 +10,8 @@ Our project has two types of senders and receivers:
   <li>producer and consumer (with focus on topic)</li>
   <li>requestor and replier (with focus on rpc)</li>
   
+  <h5>architecture</h5>
+  <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/image.png"/>
   The topic part has to do with getting a list of food-categories and then filter the larger
   amount of data into a smaller chosen amount of data by using a routing_key.
   
