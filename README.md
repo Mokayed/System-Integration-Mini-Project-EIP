@@ -27,14 +27,37 @@ Our project has two types of senders and receivers:
 
 
   
-image below shows our business process model, <a href="xml link">click here for xml version</a>
+image below shows our business process model, <a href="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/diagram.bpmn">click here for xml version</a>
 </p>
 <img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/bmpn.png"/>
 
-It has to be documented in a readable format, containing the following attributes:
-• authors’ details
-• brief summary of the application’s architecture, business and technical features
-• diagrams, illustrating the above
-• installation instructions 
+
+<h5>installation instructions</h5>
+<ul>
+  <li>clone the project</li>
+  <li>open it in your favorite java ide (we used IntelliJ)</li>
+  <li>go into rpc package -> run Replier </li> 
+  <li>then -> run Requester</li>
+  <li>follow the instructions shown in console</li>
+  <li>after following instructions, terminate the processes</li>
+  .<li>after following instructions, terminate the processes</li>
+  <li>go into line 18 in TopicConsumer and edit the string to one of the following categories:</li>
+  Beverages
+Aquatic foods
+Animal foods
+Milk and milk products
+Eggs
+Confectioneries
+Baking goods
+Dishes
+Snack foods
+Baby foods
+Unclassified
+Fats and oils
+Herbs and spices
+  <li>then go into topic package -> run TopicConsumer </li>
+  <li>then run TopicProducer</li>
+  <li>everything should all at once and you can see the results in the console window</li>
+</ul>
 
 
