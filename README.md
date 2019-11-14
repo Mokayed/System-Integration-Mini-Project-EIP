@@ -9,9 +9,9 @@
   
   <h4>BPM</h4>
   
-  We started creating a business process model, which it would make it simpler to come the implementation phase, <a href="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/diagram.bpmn">click here for xml version</a>
+  We started creating a business process model, which it would make it simpler to come the implementation phase, <a href="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/Food.bpmn">click here for xml version</a>
 </p>
-<img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/bmpn.png"/>
+<img src="https://github.com/Mokayed/System-Integration-Mini-Project-EIP/blob/master/FoodBPMN.png"/>
 
   
   
