@@ -23,7 +23,7 @@
   <li>dependecy manager: maven</li>
 </ul>
 
-<h2>Implemention <g-emoji class="g-emoji" alias="computer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png">💻</g-emoji></h2>
+<h2>Implementation <g-emoji class="g-emoji" alias="computer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png">💻</g-emoji></h2>
 
 <strong>The project is made by using two diffrent implementions of sending and receiving messages:</strong>
 
